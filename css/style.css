@@ -27,6 +27,12 @@ body{
     padding-top: 2rem;
 }
 
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* header */
 h1{
     color: var(--title_color);
@@ -35,5 +41,22 @@ h1{
 }
 
 p{font-size: 1.5rem;
+}
 
+.pic_team{
+    width: 6rem;
+    float: left;
+    margin-right: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--address_color);
+}
+
+.card_team{
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
 }
