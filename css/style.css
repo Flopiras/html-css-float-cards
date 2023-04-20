@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --title_color : #e53170;
+    --bgr_color : #e53170;
+    --address_color : #5cc6e6;
+
+}
