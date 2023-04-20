@@ -40,11 +40,11 @@ h1{
     margin: 2rem;
 }
 
+/* main */
 p{
     font-size: 1.1rem;
 }
 
-/* main */
 .main_description{
     margin-bottom: 2rem;
 }
@@ -55,6 +55,7 @@ p{
     margin-top: 0.2rem;
 }
 
+/* team card */
 .pic_team{
     width: 6rem;
     float: left;
