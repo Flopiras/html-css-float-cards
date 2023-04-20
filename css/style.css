@@ -65,6 +65,7 @@ p{
 a{
     text-decoration: none;
     color: var(--address_color);
+    cursor: pointer;
 }
 
 .card_team{
@@ -75,6 +76,10 @@ a{
     margin: 0.5rem;
     display: inline-block;
     float: left;
+}
+
+.card_team:hover{
+    opacity: 0.5;
 }
 
 .info_team{
