@@ -57,7 +57,7 @@ p{
 
 /* team card */
 .pic_team{
-    width: 6rem;
+    height: 6rem;
     float: left;
     margin-right: 1rem;
 }
@@ -70,9 +70,8 @@ a{
 
 .card_team{
     background-color: black;
-    width: calc((100% / 3) - 1.5rem);
+    width: calc((100% / 3) - 1rem);
     margin: 0.5rem;
-    display: inline-block;
     float: left;
     
 }
